@@ -46,8 +46,10 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
-  use 'kyazdani42/nvim-web-devicons'
-  use 'kyazdani42/nvim-tree.lua'
+  use 'kyazdani42/nvim-web-devicons' -- icons used by nvim tree and bufferline
+  use 'kyazdani42/nvim-tree.lua' -- tree for file navigation
+  use "akinsho/bufferline.nvim" -- tab like buffer managament
+  use "moll/vim-bbye" -- useful to avoid closing neovim when closing buffers
 
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
