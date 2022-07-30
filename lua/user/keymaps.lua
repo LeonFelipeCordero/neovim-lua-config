@@ -69,3 +69,7 @@ keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", opts)
 --keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = 10 }))<cr>", opts)
 keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 
+-- Code
+-- Formatting
+keymap("n", "<leader>l", "<cmd>Format<cr>", opts)
+

@@ -7,3 +7,11 @@ This reposiroty is based on https://github.com/LunarVim/Neovim-from-scratch wher
 1. copy the contentn this folder in ~/.config/nvim 
 2. go to plugins and save the document to install all plugins
 
+## Requirements for linters
+1. Install rust, then install stylua
+2. Install black, flake8 for python
+3. Install prettier for JavaScript
+4. PENDING... Install Java
+4. PENDING... Install Kotlin
+4. PENDING... Install Golang
+
